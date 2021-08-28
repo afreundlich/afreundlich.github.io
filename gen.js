@@ -62,7 +62,7 @@
            }
          };//end y
 
-         var folder = "1snail/";
+         var folder = "/1snail/";
          var count = 0;
 
          $.ajax({
