@@ -1,0 +1,159 @@
+body
+{
+  font-family: arial;
+  padding: 40px;
+  padding-top: 30px;
+
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#scrollBox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  height:100%;
+}
+
+.snail {
+    /* flex: 0 0 auto; */
+    flex: 1 1 auto;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+  }
+
+
+
+  #scrollBox2 {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    height:100%;
+  }
+
+  .and {
+      /* flex: 0 0 auto; */
+      flex: 1 1 auto;
+      margin: 0;
+      padding: 0;
+      margin-right: 10px;
+    }
+
+
+
+    .img:hover{
+        color: #424242;
+      -webkit-transition: all .3s ease-in;
+      -moz-transition: all .3s ease-in;
+      -ms-transition: all .3s ease-in;
+      -o-transition: all .3s ease-in;
+      transition: all .3s ease-in;
+      opacity: 1;
+      transform: scale(1.15);
+      -ms-transform: scale(1.15); /* IE 9 */
+      -webkit-transform: scale(1.15); /* Safari and Chrome */
+
+    }
+
+img:hover{
+  cursor: pointer;
+}
+
+.top
+{
+  font-size: 40px;
+  height: 10%;
+}
+
+.middle
+{
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 50px;
+  height: 90%;
+}
+
+#rowOne
+{
+  height: 35%;
+  width: 90%;
+}
+
+#rowTwo
+{
+  margin-top: 40px;
+  height: 35%;
+  width: 90%;
+}
+
+.img {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.img-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
