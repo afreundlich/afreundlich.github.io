@@ -62,7 +62,7 @@
            }
          };//end y
 
-         var folder = "/1snail/";
+         var folder = "afreundlich.github.io/1and/";
          var count = 0;
 
          $.ajax({
