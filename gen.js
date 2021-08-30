@@ -21,7 +21,7 @@
            }
          };//end y
 
-         var folder = "/";
+         var folder = "";
          var count = 0;
 
          $.ajax({
