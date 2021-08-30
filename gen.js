@@ -34,7 +34,7 @@
                        // console.log("x: " + xPos);
                        // console.log("y: " + yPos);
                       count = count + 1;
-                      console.log(count);
+                      console.log("this is the folder " + folder);
 
                        var $divC = document.createElement("div");
                        $($divC).attr("class", "snail");
