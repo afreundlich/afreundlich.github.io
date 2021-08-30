@@ -157,3 +157,29 @@ img:hover{
   text-decoration: none;
   cursor: pointer;
 }
+
+
+@media only screen and (max-width: 800px)
+{
+
+  body{
+    padding: 10px;
+    overflow: hidden;
+
+  }
+
+  .top
+  {
+    font-size: 30px;
+    height: 8%;
+  }
+
+  .middle
+  {
+    font-size: 25px;
+    margin-top: 0px;
+    margin-left: 20px;
+    height: 90%;
+  }
+
+}
