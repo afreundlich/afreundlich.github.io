@@ -62,7 +62,7 @@
            }
          };//end y
 
-         var folder = "1and/";
+         var folder = "/1and/";
          var count = 0;
 
          $.ajax({
